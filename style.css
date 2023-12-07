@@ -1,0 +1,51 @@
+body {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#experiment-container {
+    display: none;
+}
+
+#image {
+    max-width: 80%;
+    margin: 0 auto 20px;
+    /* Center image */
+    display: block;
+}
+
+#question {
+    font-size: 24px;
+    /* Larger question text */
+    margin-bottom: 20px;
+}
+
+#answers button {
+    display: block;
+    width: 200px;
+    margin: 10px auto;
+    padding: 15px;
+    background-color: rgb(148, 219, 255);
+    border: none;
+    color: #000000;
+    cursor: pointer;
+    border-radius: 20px;
+    /* Rounded corners */
+    font-size: 18px;
+    /* Larger text */
+}
+
+#homepage button {
+    padding: 15px 30px;
+    background-color: rgb(135, 227, 255);
+    border: none;
+    color: #000000;
+    cursor: pointer;
+    border-radius: 20px;
+    /* Rounded corners */
+    font-size: 18px;
+    /* Larger text */
+}
