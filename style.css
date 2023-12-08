@@ -48,4 +48,20 @@ body {
     /* Rounded corners */
     font-size: 18px;
     /* Larger text */
+
+#thank-you {
+  text-align: center;
+  padding-top: 50px;
+}
+
+#return-home {
+  padding: 15px 30px;
+  background-color: rgb(135, 227, 255);
+  border: none;
+  color: #000000;
+  cursor: pointer;
+  border-radius: 20px; /* Rounded corners */
+  font-size: 18px; /* Larger text */
+  margin-top: 20px; /* Add space between button and message */
+}
 }
