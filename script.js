@@ -210,7 +210,7 @@ function endExperiment() {
     document.getElementById('experiment-container').style.display = 'none';
     document.getElementById('thank-you').style.display = 'block'; // Show the thank you section
     saveResultsToDatabase();
-    saveResultsToCSV();
+    //saveResultsToCSV();
     currentQuestion = 0; // Reset experiment for potential restart
     results.length = 0; // Clear results array
   }
