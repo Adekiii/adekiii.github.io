@@ -54,7 +54,7 @@ body {
   padding-top: 50px;
 }
 
-#return-home button{
+#return-home button {
   padding: 15px 30px;
   background-color: rgb(135, 227, 255);
   border: none;
@@ -63,5 +63,4 @@ body {
   border-radius: 20px; /* Rounded corners */
   font-size: 18px; /* Larger text */
   margin-top: 20px; /* Add space between button and message */
-}
 }
