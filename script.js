@@ -17,7 +17,7 @@ const questions = [
         image: "https://i.imgur.com/6Qe6SCI.png",
         question: "Which country has the greatest difference in total medals earned between 2004 and 2008?",
         options: ["USA", "AUS", "JPN", "KOR"],
-        answer: 2, // Index of the correct answer in the options array
+        answer: 0, // Index of the correct answer in the options array
     },
     { //3
         image: "https://i.imgur.com/d6MoIzD.png",
@@ -41,7 +41,7 @@ const questions = [
         image: "https://i.imgur.com/Qfssk3U.png",
         question: "Which country earned the greatest total medals between 1976 and 1984 inclusive?",
         options: ["GBR", "KOR", "BRA"],
-        answer: 1, // Index of the correct answer in the options array
+        answer: 0, // Index of the correct answer in the options array
     },
     { //7
         image: "https://i.imgur.com/SJOZG3M.png",
@@ -53,7 +53,7 @@ const questions = [
         image: "https://i.imgur.com/cduCMIv.png",
         question: "Which country earned the greatest total medals between 1996 and 2004 inclusive?",
         options: ["GER", "FRA", "BRA", "NED"],
-        answer: 3, // Index of the correct answer in the options array
+        answer: 0, // Index of the correct answer in the options array
     },
     { //9
         image: "https://i.imgur.com/SnEzAzM.png",
@@ -63,20 +63,20 @@ const questions = [
     },
     { //10
         image: "https://i.imgur.com/9ifTebW.png",
-        question: "How many more medals did ESP earn compared to AUS in 2000?",
-        options: ["30", "45", "29", "18"],
-        answer: 1, // Index of the correct answer in the options array
+        question: "How many more medals did JPN earn compared to ESP in 2000?",
+        options: ["0", "5", "10", "18"],
+        answer: 0, // Index of the correct answer in the options array
     },
     { //11
         image: "https://i.imgur.com/fTgCDR1.png",
-        question: "How many more medals did BRA earn compared to JPN in 1988?",
-        options: ["13", "20", "9", "17"],
+        question: "How many more medals did GBR earn compared to BRA in 1984?",
+        options: ["35", "20", "49", "27"],
         answer: 2, // Index of the correct answer in the options array
     },
     { //12
         image: "https://i.imgur.com/lrzzAnB.png",
-        question: "How many more medals did GBR earn compared to BRA in 1996?",
-        options: ["21", "5", "16", "32"],
+        question: "How many more medals did BRA earn compared to JPN in 1996?",
+        options: ["21", "5", "26", "32"],
         answer: 0, // Index of the correct answer in the options array
     },
     { //13
@@ -101,7 +101,7 @@ const questions = [
         image: "https://i.imgur.com/eEbKAIb.png",
         question: "Which country had the smallest difference in medals earned in 1988 compared to 1992?",
         options: ["JPN", "ROU", "ITA"],
-        answer: 2, // Index of the correct answer in the options array
+        answer: 0, // Index of the correct answer in the options array
     },
     { //17
         image: "https://i.imgur.com/ATqg4ZA.png",
@@ -113,7 +113,7 @@ const questions = [
         image: "https://i.imgur.com/o4fMwI4.png",
         question: "Which country earned the most combined silver and gold medals in 2008?",
         options: ["AUS", "ESP"],
-        answer: 1, // Index of the correct answer in the options array
+        answer: 0, // Index of the correct answer in the options array
     },
     { //19
         image: "https://i.imgur.com/qK9NS7M.png",
@@ -125,7 +125,7 @@ const questions = [
         image: "https://i.imgur.com/5t7kwuB.png",
         question: "Which country earned the most combined silver and gold medals in 1988?",
         options: ["AUS", "NED", "ITA"],
-        answer: 1, // Index of the correct answer in the options array
+        answer: 0, // Index of the correct answer in the options array
     },
     // Add more question objects similarly
 ];
