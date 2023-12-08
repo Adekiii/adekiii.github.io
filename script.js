@@ -99,7 +99,7 @@ const questions = [
     },
     { //16
         image: "https://i.imgur.com/eEbKAIb.png",
-        question: "Which country had the smallest difference in medals earned in 1988 compared to 1992?",
+        question: "Which country had the smallest difference in medals earned in 1984 compared to 1992?",
         options: ["JPN", "ROU", "ITA"],
         answer: 0, // Index of the correct answer in the options array
     },
